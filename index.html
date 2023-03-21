@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="icon" type="image/x-icon" href="currency-dollar.svg">
+	<link rel="stylesheet" href="style.css" />
+    <title>Calcular Preço</title>
+  </head>
+  <body>
+		<div class="container">
+			<form class="formulario">
+				<h1>Comparar Preço</h1>
+				<div class="produto1">
+				<h2>Produto 1</h2>
+				<label>Valor: </label>
+				<input type="number" id="val1" placeholder="R$" />
+				
+				<label for="">Peso em gramas: </label>
+				<input type="number" id="qtd1" placeholder="g" />
+			
+				</div>
+				<div class="produto2">
+				<h2>Produto 2</h2>
+				<label>Valor: </label>
+				<input type="number" id="val2" placeholder="R$" />
+				
+				<label for="">Peso em gramas: </label>
+				<input type="number" id="qtd2" placeholder="g" />
+					
+				</div>
+				<button class="limpar" type="reset">Limpar</button>
+				
+				
+			</form>
+				<button class="btn" onclick="teste()">Calcular</button>
+				<p id="demo"></p>
+			
+		</div>	
+			
+	
+	
+	
+	<script src="script.js"></script>
+  </body>
+</html>
